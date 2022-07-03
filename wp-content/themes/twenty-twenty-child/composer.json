@@ -1,0 +1,27 @@
+{
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "type": "wordpress-theme",
+    "description": "WP Test",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Pavel Hidrevich",
+            "email": "phidrevich@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Visionmate\\":"classes\/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
+
+
